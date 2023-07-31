@@ -1,0 +1,18 @@
+<div class="container">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>codigoregistro</th>
+                <th>fecha</th>
+                <th>Cliente</th>
+                <th>TipoInteraccion</th>
+                <th>FDescripcion</th>      </tr>    </thead>
+        <tbody>
+            <tr *ngFor="let data of dataList">
+                <td>{{data.codigoregistro}}</td>
+                <td>{{data.fecha}}</td>
+                <td>{{data.cliente}}</td>
+                <td>{{data.tipointeraccion}}</td>
+                <td>{{data.descripcion}}</td>      </tr>    </tbody>
+    </table>
+</div>
